@@ -9,7 +9,7 @@
         default_layer {
             label = "default layer";
             bindings = <
-                &kp TAB
+                &kp A
             >;
         }; 
         
