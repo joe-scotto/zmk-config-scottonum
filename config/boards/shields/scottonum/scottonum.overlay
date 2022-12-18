@@ -10,9 +10,7 @@
         columns = <1>;
 
         &kscan {
-            input-gpios =
-                <&pro_micro 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            };
+            input-gpios = <&pro_micro 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         };
     };
 };
