@@ -9,10 +9,10 @@
 / {
 	chosen {
 		zephyr,display = &oled;
-		zmk,kscan = &kscan0;
+		zmk,kscan = &kscan;
 	};
 
-	kscan0: kscan {
+	kscan: kscan {
 		compatible = "zmk,kscan-gpio-matrix";
 		label = "KSCAN";
 
