@@ -13,7 +13,7 @@
             bindings = <
                 &mo BT, &kp FSLH, &kp STAR, &kp MINUS,
                 &kp 7,  &kp 8,    &kp 9,    &kp PLUS,
-                &kp 4,  &kp 5,    &kp 6
+                &kp 4,  &kp 5,    &kp 6,
                 &kp 1,  &kp 2,    &kp 3,    &kp ENTER,
                 &kp 0,            &kp DOT
             >;
