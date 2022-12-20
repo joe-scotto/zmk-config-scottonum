@@ -2,21 +2,30 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+// Layers
+#define BT 1
+
 / {  
     keymap: keymap {
         compatible = "zmk,keymap";
 
         default_layer {
-            label = "default layer";
             bindings = <
-                &kp A
+                &mo BT, &kp FSLH, &kp STAR, &kp MINUS,
+                &kp 7,  &kp 8,    &kp 9,    &kp PLUS,
+                &kp 4,  &kp 5,    &kp 6
+                &kp 1,  &kp 2,    &kp 3,    &kp ENTER,
+                &kp 0,            &kp DOT
             >;
         }; 
         
-        fn_layer {
-            label = "fn layer";
+        bt_layer {
             bindings = <
-                &trans
+                &trans,    &trans, &trans, &trans,
+                &trans,    &trans, &trans, &trans,
+                &trans,    &trans, &trans,
+                &trans,    &trans, &trans, &trans,
+                &BT_SEL 0,         &bt BT_CLR
             >;
         };
     };
